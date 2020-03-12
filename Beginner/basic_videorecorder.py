@@ -1,4 +1,4 @@
-'''Beginning Program'''
+'''Basic video Recorder  Program'''
 
 import cv2
 

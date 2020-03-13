@@ -12,7 +12,7 @@ print(type(FACES))
 print(FACES)
 
 for x, y, w, h in FACES:
-    IMG = cv2.rectangle(IMG, (x, y), (x+w, y+h), (0,0,255), 4)
+    IMG = cv2.rectangle(IMG, (x, y), (x+w, y+h), (0, 0, 255), 4)
 
 
 cv2.imshow('Face', IMG)
@@ -22,7 +22,7 @@ cv2.imshow('Face', IMG)
 
 
 if cv2.waitKey(0) & 0xFF == ord('q'):
-    exit() 
+    exit()
 #break can only be used to break out of loops so use exit() instead of break
 
 cv2.destroyAllWindows()

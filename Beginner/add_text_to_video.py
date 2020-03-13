@@ -7,8 +7,8 @@ print(CAP.get(cv2.CAP_PROP_FRAME_WIDTH))
 print(CAP.get(cv2.CAP_PROP_FRAME_HEIGHT))
 print(CAP.get(cv2.CAP_PROP_FRAME_COUNT))
 
-CAP.set(3, 1208)
-CAP.set(3, 720)
+CAP.set(3, 3000)
+CAP.set(3, 3000)
 
 print(CAP.get(3))
 print(CAP.get(4))

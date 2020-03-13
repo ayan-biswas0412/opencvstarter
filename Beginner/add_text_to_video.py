@@ -1,4 +1,4 @@
-'''Basic video Recorder  Program'''
+'''Basic text addition on video  Program'''
 import cv2
 
 CAP = cv2.VideoCapture(0)

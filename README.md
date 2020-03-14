@@ -1,2 +1,2 @@
-# opencvstarter
-Learning the opencv and contribute for computer vision
+# OpenCV
+Learning the opencv from very basic and contribute here for computer vision.

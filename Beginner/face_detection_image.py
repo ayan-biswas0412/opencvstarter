@@ -3,7 +3,7 @@
 import cv2
 
 FACE_CASCADE = cv2.CascadeClassifier('./sample/xml/face_detection_basic.xml')
-IMG = cv2.imread('./sample/img/face.jpeg', 1)#import the picture
+IMG = cv2.imread('./sample/img/faces.png', 1)#import the picture
 GRAY_IMG = cv2.cvtColor(IMG, cv2.COLOR_BGR2GRAY)
 
 FACES = FACE_CASCADE.detectMultiScale(GRAY_IMG, scaleFactor=1.05, minNeighbors=5)
